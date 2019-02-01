@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  margin: 0 1rem;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2 {
+  margin: 1em 0;
+  font-size: 1.17em;
+}
+
+section {
+  display: flex;
+}
+
+section article {
+  width: 40%;
+}
+
+section article form {
+  width: 100%;
+}
+
+section form input, section form textarea, section form button {
+  box-sizing: content-box;
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: .5rem;
+}
+
+section ul {
+  width: 60%;
+  list-style: none;
+  margin: 0;
+}
+
+section ul li header {
+  display: flex;
+  height: 3rem;
+}
+
+section ul li header img {
+  width: 3rem;
+  margin-right: .5rem;
+}
+
+section ul li header h3 {
+  margin: 0;
+}
+
+section ul li header button {
+  outline: 0;
+  border: 1px solid #7f8c8d;
+  border-radius: 1.5rem;
+  width: 3rem;
+  margin: 0 1rem 0 auto;
+  background-color: transparent;
+  color: #bdc3c7;
+  font-size: 2rem;
+}
+
+section ul li header button.liked {
+  border: 1px solid #c0392b;
+  background-color: #ecf0f1;
+  color: #e74c3c;
+}
+
+section ul li p {
+  margin: 1rem 0 0 3.5rem;
+}
+
+section ul li p input {
+  outline: 0;
+  border: 0;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  color: #7f8c8d;
+  border-bottom: 1px dotted #000;
+}
+
+section ul li footer {
+  margin-left: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+section ul li footer button {
+  outline: 0;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin-right: .5rem;
+  text-decoration: underline;
+  color: #7f8c8d;
+}
